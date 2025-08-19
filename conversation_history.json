@@ -1,0 +1,89 @@
+[
+  {
+    "query": "What is Hacking?",
+    "response": "Error: 'choices'",
+    "sources": [
+      "EN-Ethical Hacking.pdf",
+      "EN-Ethical Hacking.pdf",
+      "EN-Ethical Hacking.pdf",
+      "EN-Ethical Hacking.pdf",
+      "EN-Ethical Hacking.pdf"
+    ]
+  },
+  {
+    "query": "What is ethical hacking",
+    "response": "Error: 'choices'",
+    "sources": [
+      "EN-Ethical Hacking.pdf",
+      "EN-Ethical Hacking.pdf",
+      "EN-Ethical Hacking.pdf",
+      "EN-Ethical Hacking.pdf",
+      "EN-Ethical Hacking.pdf"
+    ]
+  },
+  {
+    "query": "What is ethical hacking",
+    "response": "Error: LLM did not return a valid response.",
+    "sources": [
+      "EN-Ethical Hacking.pdf",
+      "EN-Ethical Hacking.pdf",
+      "EN-Ethical Hacking.pdf",
+      "EN-Ethical Hacking.pdf",
+      "EN-Ethical Hacking.pdf"
+    ]
+  },
+  {
+    "query": "What is ethical hacking?",
+    "response": "Error: LLM did not return a valid response.",
+    "sources": [
+      "EN-Ethical Hacking.pdf",
+      "EN-Ethical Hacking.pdf",
+      "EN-Ethical Hacking.pdf"
+    ]
+  },
+  {
+    "query": "What is ethical hacking?",
+    "response": "Error: LLM did not return a valid response.",
+    "sources": [
+      "EN-Ethical Hacking.pdf",
+      "EN-Ethical Hacking.pdf",
+      "EN-Ethical Hacking.pdf"
+    ]
+  },
+  {
+    "query": "What is XSS?",
+    "response": "Error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=30)",
+    "sources": [
+      "EN-Ethical Hacking.pdf",
+      "CSEHFinalThesisByShakhawatKhan-Copy.pdf",
+      "EN-Ethical Hacking.pdf"
+    ]
+  },
+  {
+    "query": "What is XSS?",
+    "response": "Error: LLM did not return a valid response.",
+    "sources": [
+      "EN-Ethical Hacking.pdf",
+      "CSEHFinalThesisByShakhawatKhan-Copy.pdf",
+      "EN-Ethical Hacking.pdf"
+    ]
+  },
+  {
+    "query": "What is XSS?",
+    "response": " Cross-Site Scripting (XSS) is a security vulnerability that allows an attacker to inject malicious scripts into web pages viewed by other users. This can lead to various types of attacks such as data theft, session hijacking, or defacing websites. To prevent this, it's essential to validate and sanitize user inputs and avoid dynamically inserting untrusted content from external sources into your web pages.",
+    "sources": [
+      "EN-Ethical Hacking.pdf",
+      "CSEHFinalThesisByShakhawatKhan-Copy.pdf",
+      "EN-Ethical Hacking.pdf"
+    ]
+  },
+  {
+    "query": "What is XSS?",
+    "response": "Error: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=180)",
+    "sources": [
+      "EN-Ethical Hacking.pdf",
+      "CSEHFinalThesisByShakhawatKhan-Copy.pdf",
+      "EN-Ethical Hacking.pdf"
+    ]
+  }
+]

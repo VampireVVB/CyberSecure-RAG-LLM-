@@ -1,0 +1,10 @@
+flask                         
+requests                      
+argparse                      
+nltk                          
+sentence-transformers     
+torch                         
+PyMuPDF       
+faiss-cpu                
+openai                      
+

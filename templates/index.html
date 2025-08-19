@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CyberSecure-Learn Tutor</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div id="chat">
+    <h2>💬 CyberSecure-Learn</h2>
+    <div id="messages"></div>
+    <textarea id="query" rows="3" placeholder="Ask a cybersecurity question..."></textarea>
+    <button onclick="sendQuery()">Ask</button>
+  </div>
+
+  <script>
+    async function sendQuery() {
+      const query = document.getElementById('query').value;
+      if (!query.trim()) return;
+      const messages = document.getElementById('messages');
+      messages.innerHTML += `<div class='bubble user'><b>You:</b> ${query}</div>`;
+      document.getElementById('query').value = '';
+
+      const response = await fetch('/ask', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ query })
+      });
+      const data = await response.json();
+
+      const sources = data.sources ? `<br><small><i>Sources: ${data.sources.join(", ")}</i></small>` : '';
+      messages.innerHTML += `<div class='bubble bot'><b>Tutor:</b> ${data.answer}${sources}</div>`;
+    }
+  </script>
+</body>
+</html>
